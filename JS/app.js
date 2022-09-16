@@ -196,7 +196,7 @@ function scaterPlot(data, selection, in_width, in_height, unique_id, x_col, y_co
     //x_col, y_col: columns to use for the input file
     //intable: datatable object
     //filp_Y: reverse Y axis,useful for FDR that goes from 1 (bad) to 0 (good)
-    console.log('data',data);
+    //console.log('data',data);
     let margin = {
         top: 30,
         right: 20,
@@ -213,7 +213,7 @@ function scaterPlot(data, selection, in_width, in_height, unique_id, x_col, y_co
         y = d3.scaleLinear().range([0, height]);
     }
 
-    console.log('x',x);
+    //console.log('x',x);
     let xAxis = d3.axisBottom(x).ticks(10);
     let yAxis = d3.axisLeft(y).ticks(10)//.tickFormat(d3.format(".1S"));
 
@@ -261,11 +261,11 @@ function scaterPlot(data, selection, in_width, in_height, unique_id, x_col, y_co
     
     xExtent = add_margin(xExtent, add_margin_value);
     
-    console.log('xExtent',xExtent);
+    //console.log('xExtent',xExtent);
     
     yExtent = add_margin(yExtent, add_margin_value);
     
-    console.log('yExtent',yExtent);
+    //console.log('yExtent',yExtent);
 
     //console.log('after: xExtent', xExtent, 'yExtent', yExtent);
 
