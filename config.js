@@ -18,8 +18,8 @@ let PLOT_HEIGHT=400;
 let PROJECT_TITLE='TREU927 AvsB TMT10plex';
 let TAB_TITLE='TREU927 AvsB TMT10plex'
 
-let _margin_1 = 0;
-let _margin_2 = 0;
+let _margin_1 = 0.05;
+let _margin_2 = 0.05;
 
 let _border_1_x = 0;
 let _border_1_y = 0;
