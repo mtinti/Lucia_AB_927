@@ -16,7 +16,7 @@ let PLOT_WIDTH=550;
 let PLOT_HEIGHT=400;
 
 let PROJECT_TITLE='TREU927 AvsB TMT10plex';
-let TAB_TITLE='TREU927 AvsB TMT10plex'
+let TAB_TITLE='927 10plex'
 
 let _margin_1 = 0.05;
 let _margin_2 = 0.05;
